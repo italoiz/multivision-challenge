@@ -44,3 +44,19 @@ Here we consumed the `posts` and `users` endpoints to make a list of users with 
 - Jest - To create test cases.
 - Travis CI - To deploy the online result on the AWS S3. Could be used the GitHub Actions instead of Travis.
 - Coveralls - To track the code coverage.
+
+### How to start the project?
+
+You can clone this repository and follow the steps below:
+
+1. `yarn install` or `npm install` to install dependencies.
+2. `yarn dev` will start the development server and open the browser.
+
+### How to execute the test cases?
+
+After clone the repository and install dependencies you can run the below command:
+
+```sh
+yarn test # for yarn environment
+npm run test # for npm environment
+```
